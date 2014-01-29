@@ -1,6 +1,7 @@
+<?xml version="1.0"?>
 <launch>
 
-  <arg name="scan_topic" default="scan" />
+  <arg name="scan_topic" default="laser_data" />
 
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
     <param name="odom_frame" value="odom"/>
