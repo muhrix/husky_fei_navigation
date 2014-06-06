@@ -1,6 +1,6 @@
 global_costmap:
-  global_frame: odom
-  robot_base_frame: base_link
+  global_frame: husky_1_odom_combined
+  robot_base_frame: husy_1_base_link
   update_frequency: 5
   publish_frequency: 2
   static_map: false
